@@ -168,7 +168,7 @@ function tableChart(numSubject, data) {
                 cells: {
                     values: geoData,
                     fill: { color: ['white', 'white'] },
-                    font: { size: 12 }
+                    font: { size: 11 }
                     },
             }]
             
