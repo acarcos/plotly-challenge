@@ -157,7 +157,7 @@ function tableChart(numSubject, data) {
                 [valueId, age, bbtype, ethinicity, gender, location, wfreq]
             ]
 
-            var testTable = [{
+            var demoTable = [{
                 type: 'table',
                 header: { values: [["<b>Demographic</b>"], ["<b>info</b>"]],
                 fill: { color: ['rgb(228, 222, 249, 0.65)'] },
@@ -194,7 +194,7 @@ function tableChart(numSubject, data) {
                 height: 350
             };
 
-            Plotly.newPlot("gauge", testTable);
+            Plotly.newPlot("gauge", demoTable, {responsive: true});
             Plotly.newPlot('plottables', dataGauge, layoutGauge);
 
             break;
